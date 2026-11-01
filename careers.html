@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Explore career opportunities at NexBridge Creative and apply to join our creative team.">
+<title>Careers — NexBridge Creative</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0c10;--surface:#12141b;--surface2:#191c25;--text:#f5f6fa;--muted:#a6a9b6;--accent:#b7ff5a;--accent2:#9d7bff;--border:rgba(255,255,255,.12);--max:1160px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:"DM Sans",sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}.container{width:min(var(--max),calc(100% - 40px));margin:auto}h1,h2,h3{font-family:"Space Grotesk",sans-serif;line-height:1.08;letter-spacing:-.045em;margin-top:0}.gradient{color:var(--accent)}.muted{color:var(--muted)}.section{padding:90px 0}.eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--accent);font-size:.76rem;letter-spacing:.16em;text-transform:uppercase;font-weight:700}.eyebrow:before{content:"";width:7px;height:7px;background:var(--accent);border-radius:50%}
+.navbar{position:sticky;top:0;z-index:10;background:rgba(11,12,16,.86);backdrop-filter:blur(18px);border-bottom:1px solid var(--border)}.nav-inner{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.logo{display:flex;align-items:center;gap:11px;font:700 1.15rem "Space Grotesk",sans-serif}.logo-mark{width:34px;height:34px;border-radius:11px;display:grid;place-items:center;background:var(--accent);color:#10120b;font-weight:800}.nav-links{display:flex;align-items:center;justify-content:flex-end;gap:20px;flex-wrap:wrap;color:var(--muted);font-size:.92rem}.nav-links a:hover{color:var(--text)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border:1px solid transparent;border-radius:999px;padding:13px 20px;font-weight:700;cursor:pointer;transition:.2s}.btn:hover{transform:translateY(-2px)}.btn-primary{background:var(--accent);color:#10120b}.btn-outline{border-color:var(--border);background:rgba(255,255,255,.03)}.theme-toggle{border:1px solid var(--border);border-radius:999px;padding:9px 13px;color:var(--text);background:var(--surface);cursor:pointer;font-weight:700}
+.hero{padding:100px 0 75px;position:relative;overflow:hidden}.hero:after{content:"";position:absolute;width:520px;height:520px;border-radius:50%;right:-180px;top:-200px;background:radial-gradient(circle,rgba(157,123,255,.2),transparent 68%);pointer-events:none}.hero h1{font-size:clamp(3.3rem,8vw,6.8rem);max-width:900px;margin:22px 0}.hero p{max-width:650px;color:var(--muted);font-size:1.08rem}.hero-meta{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.meta-pill{border:1px solid var(--border);border-radius:999px;padding:8px 13px;color:var(--muted);font-size:.83rem}
+.section-head{display:flex;justify-content:space-between;align-items:end;gap:25px;margin-bottom:38px}.section-head h2{font-size:clamp(2.2rem,5vw,4rem);margin:14px 0}.section-head p{max-width:420px;color:var(--muted);margin:0 0 6px}
+.jobs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.job{padding:26px;border:1px solid var(--border);background:var(--surface);border-radius:18px;display:flex;flex-direction:column;min-height:245px;transition:.25s}.job:hover{transform:translateY(-5px);border-color:rgba(183,255,90,.55)}.job-top{display:flex;justify-content:space-between;gap:12px;align-items:center}.job-no{color:var(--accent);font-size:.72rem;font-weight:700;letter-spacing:.14em}.job-type{font-size:.75rem;color:var(--muted);border:1px solid var(--border);border-radius:999px;padding:5px 10px}.job h3{font-size:1.5rem;margin:22px 0 9px}.job p{color:var(--muted);font-size:.92rem;margin:0 0 22px}.job .btn{margin-top:auto;align-self:flex-start;padding:10px 16px;font-size:.88rem}
+.process{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.step{padding:23px;border:1px solid var(--border);background:var(--surface);border-radius:16px}.step-number{color:var(--accent);font:700 1.4rem "Space Grotesk",sans-serif}.step h3{font-size:1.1rem;margin:18px 0 8px}.step p{color:var(--muted);font-size:.88rem;margin:0}
+.apply-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:45px;align-items:start}.apply-copy p{color:var(--muted)}.apply-copy ul{padding-left:19px;color:var(--muted)}.apply-copy li{margin:9px 0}.form-wrap{padding:clamp(20px,3vw,34px);border:1px solid var(--border);border-radius:22px;background:linear-gradient(145deg,rgba(255,255,255,.055),rgba(255,255,255,.018))}.form-wrap h3{font-size:1.55rem;margin-bottom:8px}.form-wrap>p{color:var(--muted);font-size:.92rem;margin-bottom:23px}.form{display:grid;gap:14px}.row{display:grid;grid-template-columns:1fr 1fr;gap:14px}.form input,.form select,.form textarea{width:100%;padding:14px 15px;border:1px solid var(--border);border-radius:11px;background:var(--surface);color:var(--text);outline:none}.form input:focus,.form select:focus,.form textarea:focus{border-color:var(--accent)}.form select option{background:var(--surface)}.form textarea{min-height:125px;resize:vertical}.form-note{font-size:.78rem!important;color:var(--muted);margin:0!important}.form button{justify-self:start}
+footer{border-top:1px solid var(--border);padding:27px 0;color:var(--muted);font-size:.88rem}.footer-inner{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}.footer-links{display:flex;gap:17px;flex-wrap:wrap}
+body[data-theme=light]{--bg:#f7f7f4;--surface:#fff;--surface2:#eeefea;--text:#171820;--muted:#626574;--border:rgba(20,22,30,.16)}body[data-theme=light] .navbar{background:rgba(247,247,244,.9)}
+@media(max-width:850px){.section{padding:70px 0}.section-head{display:block}.section-head p{margin-top:14px}.apply-grid{grid-template-columns:1fr;gap:28px}.process{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.container{width:calc(100% - 28px)}.nav-inner{padding:12px 0}.nav-links{justify-content:flex-start;gap:10px 14px;width:100%;font-size:.85rem}.hero{padding:70px 0 55px}.jobs{grid-template-columns:1fr}.process{grid-template-columns:1fr}.row{grid-template-columns:1fr}.footer-inner{align-items:flex-start;flex-direction:column}}
+</style>
+</head>
+<body>
+<header class="navbar"><div class="container nav-inner">
+<a class="logo" href="index.html"><span class="logo-mark">N</span><span>NexBridge Creative<span class="gradient">.</span></span></a>
+<nav class="nav-links"><a href="index.html#about">About</a><a href="index.html#services">Services</a><a href="index.html#work">Our Work</a><a href="index.html#team">Our Team</a><a href="index.html#process">Process</a><a href="#openings">Open Positions</a><button class="theme-toggle" id="themeToggle" type="button">☾ <span id="themeLabel">Dark mode</span></button><a class="btn btn-primary" href="#apply">Apply Now ↗</a></nav>
+</div></header>
+<main>
+<section class="hero"><div class="container">
+<span class="eyebrow">Careers at NexBridge Creative</span>
+<h1>Make great work.<br><span class="gradient">Grow with us.</span></h1>
+<p>We’re looking for curious, creative, and motivated people who love making meaningful digital experiences. Find a role that fits your skills and send us your application.</p>
+<div class="hero-meta"><span class="meta-pill">5 Open Positions</span><span class="meta-pill">Creative & Digital Team</span><span class="meta-pill">Dhaka · Bangladesh</span></div>
+</div></section>
+<section class="section" id="openings"><div class="container">
+<div class="section-head"><div><span class="eyebrow">Join Our Team</span><h2>Explore open <span class="gradient">positions.</span></h2></div><p>Choose the position you want to apply for. Each application is reviewed by our team, and shortlisted candidates will be contacted.</p></div>
+<div class="jobs">
+<article class="job"><div class="job-top"><span class="job-no">01 / DESIGN</span><span class="job-type">Entry Level</span></div><h3>Intern Graphic Designer</h3><p>For aspiring designers eager to learn, build practical skills, and support the team with creative visual content.</p><button class="btn btn-outline apply-role" data-role="Intern Graphic Designer">Apply for this role ↗</button></article>
+<article class="job"><div class="job-top"><span class="job-no">02 / DESIGN</span><span class="job-type">Junior</span></div><h3>Junior Graphic Designer</h3><p>Create social media posts, advertising creatives, and brand visuals while growing your design skills.</p><button class="btn btn-outline apply-role" data-role="Junior Graphic Designer">Apply for this role ↗</button></article>
+<article class="job"><div class="job-top"><span class="job-no">03 / DESIGN</span><span class="job-type">Experienced</span></div><h3>Senior Graphic Designer</h3><p>Lead visual execution, develop creative concepts, and deliver high-quality design solutions for client campaigns.</p><button class="btn btn-outline apply-role" data-role="Senior Graphic Designer">Apply for this role ↗</button></article>
+<article class="job"><div class="job-top"><span class="job-no">04 / MARKETING</span><span class="job-type">Digital</span></div><h3>Digital Marketer</h3><p>Support digital marketing campaigns, social media strategy, audience engagement, and performance improvement.</p><button class="btn btn-outline apply-role" data-role="Digital Marketer">Apply for this role ↗</button></article>
+<article class="job"><div class="job-top"><span class="job-no">05 / VIDEO</span><span class="job-type">Creative</span></div><h3>Video Editor</h3><p>Edit engaging short-form videos, promotional content, and social media creatives with strong storytelling.</p><button class="btn btn-outline apply-role" data-role="Video Editor">Apply for this role ↗</button></article>
+</div></div></section>
+<section class="section"><div class="container">
+<div class="section-head"><div><span class="eyebrow">Application Process</span><h2>How to <span class="gradient">apply.</span></h2></div><p>A simple and transparent process from application submission to the final selection.</p></div>
+<div class="process">
+<div class="step"><span class="step-number">01 /</span><h3>Choose a Position</h3><p>Select the role that best matches your skills and career goals.</p></div>
+<div class="step"><span class="step-number">02 /</span><h3>Submit Application</h3><p>Complete the application form with your contact details and portfolio or CV link.</p></div>
+<div class="step"><span class="step-number">03 /</span><h3>Review & Shortlist</h3><p>Our team reviews your information and contacts shortlisted candidates.</p></div>
+<div class="step"><span class="step-number">04 /</span><h3>Interview</h3><p>Shortlisted applicants are invited for an interview or a relevant skills assessment.</p></div>
+</div></div></section>
+<section class="section" id="apply"><div class="container apply-grid">
+<div class="apply-copy"><span class="eyebrow">Your Next Step</span><h2>Ready to create <span class="gradient">with us?</span></h2><p>Fill out the application form. Please make sure your portfolio, CV, or work samples are accessible through the link you provide.</p><ul><li>Use an active email address and phone number.</li><li>Share a portfolio, Behance, LinkedIn, or CV link.</li><li>Choose only the position you are applying for.</li><li>Our team will contact you if you are shortlisted.</li></ul></div>
+<div class="form-wrap"><h3>Job Application Form</h3><p>Tell us a little about yourself and the role you’re interested in.</p>
+<form class="form" id="applicationForm">
+<div class="row"><input id="appName" name="name" type="text" placeholder="Full name" required><input id="appEmail" name="email" type="email" placeholder="Email address" required></div>
+<div class="row"><input id="appPhone" name="phone" type="tel" placeholder="Phone / WhatsApp number" required><select id="appPosition" name="position" required><option value="">Select a position</option><option>Intern Graphic Designer</option><option>Junior Graphic Designer</option><option>Senior Graphic Designer</option><option>Digital Marketer</option><option>Video Editor</option></select></div>
+<div class="row"><input id="appPortfolio" name="portfolio" type="url" placeholder="Portfolio / Behance / LinkedIn URL"><input id="appCV" name="cv" type="url" placeholder="CV / Resume link (Google Drive)"></div>
+<select id="appExperience" name="experience" required><option value="">Select your experience level</option><option>Student / Fresher</option><option>Less than 1 year</option><option>1–2 years</option><option>3–5 years</option><option>5+ years</option></select>
+<textarea id="appMessage" name="message" placeholder="Why are you a good fit for this position? (Optional)"></textarea>
+<button class="btn btn-primary" type="submit">Submit Application ↗</button>
+<p class="form-note">Your application is submitted securely to our recruitment database when online applications are enabled. Please include working portfolio/CV links.</p>
+</form></div>
+</div></section>
+</main>
+<footer><div class="container footer-inner"><a class="logo" href="index.html"><span class="logo-mark">N</span><span>NexBridge Creative<span class="gradient">.</span></span></a><span>© <span id="year"></span> NexBridge Creative. All rights reserved.</span><div class="footer-links"><a href="index.html#services">Services</a><a href="index.html#work">Work</a><a href="index.html#team">Our Team</a><a href="index.html#contact">Contact</a></div></div></footer>
+<script>
+const themeButton=document.getElementById('themeToggle'), themeLabel=document.getElementById('themeLabel');
+function setTheme(t){document.body.setAttribute('data-theme',t);localStorage.setItem('creative-studio-theme',t);themeButton.firstChild.textContent=t==='dark'?'☀ ':'☾ ';themeLabel.textContent=t==='dark'?'Light mode':'Dark mode';document.documentElement.style.colorScheme=t;}
+const saved=localStorage.getItem('creative-studio-theme');setTheme(saved||(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark'));
+themeButton.addEventListener('click',()=>setTheme(document.body.getAttribute('data-theme')==='dark'?'light':'dark'));
+document.querySelectorAll('.apply-role').forEach(btn=>btn.addEventListener('click',()=>{document.getElementById('appPosition').value=btn.dataset.role;document.getElementById('apply').scrollIntoView({behavior:'smooth'});document.getElementById('appName').focus({preventScroll:true});}));
+document.getElementById('year').textContent=new Date().getFullYear();
+document.getElementById('applicationForm').addEventListener('submit',e=>{e.preventDefault();if(window.NEXBRIDGE_DB_ACTIVE)return;const v=id=>document.getElementById(id).value.trim();const subject=encodeURIComponent('Job Application — '+v('appPosition'));const body=encodeURIComponent('JOB APPLICATION\n\nFull Name: '+v('appName')+'\nEmail: '+v('appEmail')+'\nPhone: '+v('appPhone')+'\nPosition: '+v('appPosition')+'\nPortfolio: '+(v('appPortfolio')||'Not provided')+'\nCV / Resume: '+(v('appCV')||'Not provided')+'\nExperience: '+v('appExperience')+'\n\nAdditional Message:\n'+(v('appMessage')||'Not provided'));window.location.href='mailto:tirthabiswas37@gmail.com?subject='+subject+'&body='+body;});
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="config.js"></script><script src="public-site.js"></script></body></html>
