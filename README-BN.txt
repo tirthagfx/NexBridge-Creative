@@ -64,3 +64,4 @@ LIVE করার জন্য প্রয়োজনীয় setup (একবা�
 গুরুত্বপূর্ণ সীমাবদ্ধতা
 ----------------------
 এই ZIP-এ code এবং database setup দেওয়া হয়েছে। Supabase project তৈরি, API key বসানো এবং admin user allow-list-এ যোগ করা ছাড়া live login/database কাজ করবে না। আমি তোমার Supabase account-এ প্রবেশ করে project তৈরি বা credentials বসাতে পারি না। Setup সম্পন্ন হলে dashboard-এর CRUD ও form submission চালু হবে।
+Website deployment refresh
